@@ -16,36 +16,27 @@
     min-width: 100%;
 }
 
-h2 {
+.Content {
+    font-family: 'Handlee', serif;
     position: absolute;
-    justify-content: center;
-    top: 120px;
-    left :350px;
-    right : auto;
+    top: 90px;
+    left: 350px;
+    right: auto;
     display: flex;
     margin: 0 auto;
     padding-top: 10px;
     display: inline-block;
     font-weight: normal;
+    font-size: medium;
 }
-p {
-    font-family: 'Dancing Script', sans-serif;
-    position: absolute;
-   
-    top: 150px;
-    margin: auto 0 auto 0;
-    font-weight: normal;
-    line-height: 2;
-    left: 350px;
-    right: auto;
-}
-h1 {
+
+.title {
     font-family: 'Sacramento', sans-serif;
     position: absolute;
-    top: 65px;
+    top: 40px;
     padding-top: 10px;
-    font-weight: normal;
-    display: flex;
+    font-weight: bold;
+    font-size: x-large;
     left: 350px;
     right: auto;
 }
